@@ -5,5 +5,5 @@
   flex-direction: column;
   width: 100vw !important;
   height: auto;
-  overflow: hidden;
+  overflow-x: hidden;
 }
