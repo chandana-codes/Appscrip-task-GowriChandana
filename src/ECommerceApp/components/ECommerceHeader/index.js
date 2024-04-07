@@ -6,7 +6,6 @@ const ECommerceHeader = () => {
       <div className="ecommerce-header">
         <h1 className="ecommerce-header-logo">LOGO</h1>
       </div>
-
       <ul className="ecommerce-navbar">
         <li className="ecommerce-nav-routes">SHOP</li>
         <li className="ecommerce-nav-routes">SKILLS</li>

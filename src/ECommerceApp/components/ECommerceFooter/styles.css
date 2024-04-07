@@ -1,0 +1,86 @@
+.footer{
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  padding: 34px;
+  width: 100%;
+}
+
+.contact-info-container{
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .sigup-for-sm{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .sigup-for-lg{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contact-info-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.email-subscribe-container{
+  display: flex;
+  flex-direction: row;
+  padding: 12px;
+}
+
+.email-input{
+  border: none;
+  padding: 12px;
+  color: gray;
+}
+
+.subscribe-button{
+  margin-left: 5px;
+  background-color: transparent;
+  border: 2px solid gray;
+  border-radius: 8px;
+  color: gray;
+  padding: 12px;
+}
+
+.contact-details{
+  color: #fff;
+}
+
+.header{
+  font-size: 24px;
+}
+
+.footer-details{
+  list-style-type: none;
+  font-weight: 400;
+
+}
+
+@media screen and (min-width: 767px) {
+  .footer-content-lg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.footer-copyright{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 8px;
+}
+
+.follow-us-icon{
+  margin: 5px;
+}
